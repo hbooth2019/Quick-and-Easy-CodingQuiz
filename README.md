@@ -1,1 +1,1 @@
-# Quick-and-Easy-CodingQuiz
+Welcome to my coding quiz, i've put together this small HTML/CSS/JAVA inspired webpage to test your knowledge on coding with 8 questions on a timer.
