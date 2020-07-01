@@ -1,42 +1,42 @@
-var secondsleft = 60 
+var secondsLeft = 60 
 var startQuiz = document.querySelector("start");
 var questions = [
-    {  question: "Question,"
-      answers: ["answer1", "answer 2","answer 3","answer 4",]
-      correctAns: "answer1",}
+    {  question: "Question",
+      answers: ["answer1", "answer 2","answer 3","answer 4"],
+      correctAns: "answer1"}
      
      {
-      question: "Question,"
-      answers: ["answer1", "answer 2","answer 3","answer 4",]
-      correctAns: "answer1",
-     }
-     {
-      question: "Question,"
-      answers: ["answer1", "answer 2","answer 3","answer 4",]
+      question: "Question",
+      answers: ["answer1", "answer 2","answer 3","answer 4"],
       correctAns: "answer1"
      }
      {
-      question: "Question,"
-      answers: ["answer1", "answer 2","answer 3","answer 4",]
+      question: "Question",
+      answers: ["answer1", "answer 2","answer 3","answer 4"],
+      correctAns: "answer1"
+     }
+     {
+      question: "Question",
+      answers: ["answer1", "answer 2","answer 3","answer 4"],
       correctAns: "answer1"
 
-      question: "Question,"
-      answers: ["answer1", "answer 2","answer 3","answer 4",]
+      question: "Question",
+      answers: ["answer1", "answer 2","answer 3","answer 4"],
       correctAns: "answer1"
      }
      {
-      question: "Question,"
-      answers: ["answer1", "answer 2","answer 3","answer 4",]
+      question: "Question",
+      answers: ["answer1", "answer 2","answer 3","answer 4"],
       correctAns: "answer1"
      }
      {
-      question: "Question,"
-      answers: ["answer1", "answer 2","answer 3","answer 4",]
+      question: "Question",
+      answers: ["answer1", "answer 2","answer 3","answer 4"],
       correctAns: "answer1"
      }
      {
-      question: "Question,"
-      answers: ["answer1", "answer 2","answer 3","answer 4",]
+      question: "Question",
+      answers: ["answer1", "answer 2","answer 3","answer 4"],
       correctAns: "answer1"
    } 
  ];
@@ -50,7 +50,7 @@ var interval;
 
 function renderQuestion(){
     document.querySelector(".questions").innerHTML = "";
-    startQuiz.setAttribute("style"), display: none");
+    // startQuiz.setAttribute("style"), display: none");
     document.querySelector(".quiz").setAttribute("style");
     var q = questions[j].questions;
     var questionEl = document.createElement("h2");
@@ -70,7 +70,7 @@ function counter(){
     interval = setInterval(function() => {
        document.querySelector("#timer")
        secondsLeft--;
-       if(secondsleft === 0) {
+       if(secondsLeft === 0) {
        clearInterval(interval);
      } else {
          return secondsLeft
@@ -97,3 +97,4 @@ function storeScores(){
 
 startQuiz.addEventListener("click", renderQuestion)
 startQuiz.addEventListener("click", counter)
+
