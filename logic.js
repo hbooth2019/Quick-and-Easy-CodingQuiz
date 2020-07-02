@@ -113,7 +113,6 @@ function quizEnd(){
 
 
 
-// function saveHighScore(localstorage.setitem)
 startBtn.onclick = startQuiz
 
 
