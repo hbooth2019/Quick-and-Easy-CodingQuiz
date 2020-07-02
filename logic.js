@@ -1,37 +1,37 @@
 var currentQuestionIndex = 0;
 var questions = [
 {
-    title:" Title 1",
-    choices:[ "answer1", "answer2", "answer3","answer4"],
-    answer: "answer2"
+    title:" Commonly used data types do NOT include:",
+    choices:[ "Strings", "Booleans", "Alerts","Burnt Cheese"],
+    answer: "Alerts"
 },{
-    title:" Title 2",
-    choices:[ "answer1", "answer2", "answer3","answer4"],
-    answer: "answer2"
+    title:" Arrays in JavaScript are used to store ____.",
+    choices:[ "Numbers and Strings", "Other Arrays", "Booleans","All of the above"],
+    answer: "all of the above"
 },{
-    title:" Title 3",
-    choices:[ "answer1", "answer2", "answer3","answer4"],
-    answer: "answer2"
+    title:" NaN stands for:",
+    choices:[ "Numbers-are-neat", "Not-a-Number", "New and nice","Not-a-nanny"],
+    answer: "Not-a-Number"
 },{
-    title:" Title 4",
-    choices:[ "answer1", "answer2", "answer3","answer4"],
-    answer: "answer2"
+    title:" The greater than/or equal operator is:",
+    choices:[ ">>", "<<>", ">=","<----<O"],
+    answer: ">="
 },{
-    title:" Title 5",
-    choices:[ "answer1", "answer2", "answer3","answer4"],
-    answer: "answer2"
+    title:" What puts an Array together?:",
+    choices:[ "Basketballs", "Quotes", "Curly Brackets","Squares Brackets"],
+    answer: "Square Brackets"
 },{
-    title:" Title 6",
-    choices:[ "answer1", "answer2", "answer3","answer4"],
-    answer: "answer2"
+    title:" What are the 3 fundamentals of a webpage?:",
+    choices:[ "HTML/JS/CSS", "HTML/RUBY/JASMINE", "VSSTUDIO/terminal/CSS","JS/Scripts/Errors"],
+    answer: "HTML/JS/CSS"
 },{
-    title:" Title 7",
-    choices:[ "answer1", "answer2", "answer3","answer4"],
-    answer: "answer2"
+    title:"The condition in an if/ else statement is enclosed within _____. ",
+    choices:[ "Quotes", "Curly Brackets", "Parentheses","Square Brackets"],
+    answer: "Parentheses"
 },{
-    title:" Title 8",
-    choices:[ "answer1", "answer2", "answer3","answer4"],
-    answer: "answer2"
+    title:" What can you use the LS and CD commands?",
+    choices:[ "Bash/terminal", "Javascript/CSS", "VSCODE","Internet Explorer"],
+    answer: "Bash/terminal"
 }
 ]
 var time = questions.length * 15;
@@ -115,3 +115,7 @@ function quizEnd(){
 
 // function saveHighScore(localstorage.setitem)
 startBtn.onclick = startQuiz
+
+
+
+
